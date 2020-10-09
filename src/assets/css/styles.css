@@ -1,0 +1,49 @@
+.app {
+  width: 100%;
+  height: 100vh;
+  background-color: blue;
+
+  display: flex;
+  flex-direction: row;
+}
+.app .app__col1 {
+  width: 5%;
+  height: 100%;
+  background-color: blueviolet;
+}
+.app .app__col2 {
+  width: 95%;
+  height: 100%;
+  background-color: brown;
+
+  display: flex;
+  flex-direction: column;
+}
+.app .app__col2 .app__col2__col1 {
+  width: 100%;
+  height: 20%;
+  background-color: #ffeaa7;
+}
+.app .app__col2 .app__col2__col2 {
+  width: 100%;
+  height: 30%;
+  background-color: #00cec9;
+}
+.app .app__col2 .app__col2__col3 {
+  width: 100%;
+  height: 50%;
+  background-color: #e84393;
+
+  display: flex;
+  flex-direction: row;
+}
+.app .app__col2 .app__col2__col3 .app__col2__col3__col1 {
+  width: 50%;
+  height: 100%;
+  background-color: #9c88ff;
+}
+.app .app__col2 .app__col2__col3 .app__col2__col3__col2 {
+  width: 50%;
+  height: 100%;
+  background-color: #8c7ae6;
+}
